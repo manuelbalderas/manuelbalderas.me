@@ -21,7 +21,8 @@
 html {
     font-family: 'Montserrat';
     color: #ffffff;
-    background: linear-gradient(#16141c, #1c1b24);
+    background: #16141c;
+    /* background: linear-gradient(#16141c, #1c1b24); */
 }
 
 header, main, footer {

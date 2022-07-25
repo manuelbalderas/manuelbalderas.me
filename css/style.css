@@ -1,0 +1,108 @@
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/montserrat-v25-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v25-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* montserrat-700 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/montserrat-v25-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v25-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+html {
+    font-family: 'Montserrat';
+    color: #ffffff;
+    background: linear-gradient(#16141c, #1c1b24);
+}
+
+header, main, footer {
+    max-width: 100%;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header {
+    font-size: 30px;
+}
+
+.sub-head {
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+.profile-picture {
+    max-width: 100%;
+    min-width: 200px;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.italic {
+    font-style: italic;
+    color: #a7a4b5;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+header .link {
+    text-decoration: none;
+}
+
+header .bold {
+    margin-top: 15px;
+}
+
+main .link {
+    width: 60%;
+    color: #ffffff;
+   
+    padding: 20px 20%;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-bottom: 13px;
+    display: block;
+    transition: 0.2s ease-in;
+    border: 2px solid transparent;
+    background: #6d4aff;
+}
+
+main .link:hover {
+    
+    color: #6d4aff;
+    border: 2px solid #6d4aff;
+    background: transparent;
+}
+
+main .link:last-child {
+    margin-bottom: 2px;
+}
+
+/* @media only screen and (min-width: 600px) {
+    main .link:last-child{
+        margin-bottom: 90px;
+    }
+  } */
+
+footer {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+

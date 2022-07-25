@@ -39,7 +39,6 @@ header {
 
 .sub-head {
     font-size: 15px;
-    margin-top: -15px;
 }
 
 .profile-picture {
@@ -63,7 +62,7 @@ header .link {
 }
 
 header .bold {
-    margin-top: 15px;
+    margin: 15px auto;
 }
 
 main .link {
@@ -99,7 +98,6 @@ main .link:last-child {
 
 footer {
     position: absolute;
-    width: 100%;
     margin: 0 auto;
     left: 0;
     right: 0;

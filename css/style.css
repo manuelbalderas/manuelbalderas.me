@@ -70,8 +70,8 @@ header .bold {
 
 main .link {
     width: 60%;
+    min-width: 200px;
     color: #ffffff;
-   
     padding: 15px 0;
     text-decoration: none;
     border-radius: 50px;
